@@ -1,0 +1,32 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "producta",
+      "size": "XL",
+      "price": 500,
+      "description": "it is a good product"
+    },
+    {
+      "name": "productb",
+      "size": "L",
+      "price": 600,
+      "description": "it is a good product",
+      "id": 2
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "username": "admin",
+      "email": "admin@gmail.com",
+      "password": "123456789"
+    },
+    {
+      "username": "user",
+      "email": "user@gmail.com",
+      "password": "12345678",
+      "id": 2
+    }
+  ]
+}

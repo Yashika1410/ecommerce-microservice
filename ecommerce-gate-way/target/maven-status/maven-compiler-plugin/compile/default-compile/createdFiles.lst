@@ -1,0 +1,13 @@
+com\example\ecommercegateway\EcommerceGateWayApplication.class
+com\example\ecommercegateway\filter\PostFilter.class
+com\example\ecommercegateway\utils\exception\DuplicateRecordException.class
+com\example\ecommercegateway\config\ZuulConfiguration$LookupHandlerCallbackFilter.class
+com\example\ecommercegateway\config\ZuulConfiguration$ZuulPostProcessor.class
+com\example\ecommercegateway\filter\ErrorFilter.class
+com\example\ecommercegateway\config\ZuulConfiguration.class
+com\example\ecommercegateway\filter\PreFilter.class
+com\example\ecommercegateway\filter\RouteFilter.class
+com\example\ecommercegateway\config\ZuulConfiguration$LookupHandlerMethodInterceptor.class
+com\example\ecommercegateway\model\Error.class
+com\example\ecommercegateway\utils\exception\MediaNotSupportedException.class
+com\example\ecommercegateway\utils\exception\BadRequestException.class

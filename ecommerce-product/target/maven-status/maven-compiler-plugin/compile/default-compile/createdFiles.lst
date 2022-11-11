@@ -1,0 +1,4 @@
+com\example\ecommerceproduct\controllers\ProductController.class
+com\example\ecommerceproduct\services\ProductDetailsService.class
+com\example\ecommerceproduct\EcommerceProductApplication.class
+com\example\ecommerceproduct\models\Product.class

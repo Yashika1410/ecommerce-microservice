@@ -1,0 +1,4 @@
+com\example\ecommerceadmin\models\Product.class
+com\example\ecommerceadmin\EcommerceAdminApplication.class
+com\example\ecommerceadmin\controllers\AdminController.class
+com\example\ecommerceadmin\services\ProductService.class

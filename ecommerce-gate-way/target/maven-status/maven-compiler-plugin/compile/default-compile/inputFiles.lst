@@ -1,0 +1,10 @@
+E:\Codes\ecommerce-microservice\ecommerce-gate-way\src\main\java\com\example\ecommercegateway\utils\exception\BadRequestException.java
+E:\Codes\ecommerce-microservice\ecommerce-gate-way\src\main\java\com\example\ecommercegateway\filter\ErrorFilter.java
+E:\Codes\ecommerce-microservice\ecommerce-gate-way\src\main\java\com\example\ecommercegateway\model\Error.java
+E:\Codes\ecommerce-microservice\ecommerce-gate-way\src\main\java\com\example\ecommercegateway\config\ZuulConfiguration.java
+E:\Codes\ecommerce-microservice\ecommerce-gate-way\src\main\java\com\example\ecommercegateway\utils\exception\MediaNotSupportedException.java
+E:\Codes\ecommerce-microservice\ecommerce-gate-way\src\main\java\com\example\ecommercegateway\utils\exception\DuplicateRecordException.java
+E:\Codes\ecommerce-microservice\ecommerce-gate-way\src\main\java\com\example\ecommercegateway\filter\PostFilter.java
+E:\Codes\ecommerce-microservice\ecommerce-gate-way\src\main\java\com\example\ecommercegateway\filter\PreFilter.java
+E:\Codes\ecommerce-microservice\ecommerce-gate-way\src\main\java\com\example\ecommercegateway\EcommerceGateWayApplication.java
+E:\Codes\ecommerce-microservice\ecommerce-gate-way\src\main\java\com\example\ecommercegateway\filter\RouteFilter.java
