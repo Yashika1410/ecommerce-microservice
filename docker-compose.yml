@@ -1,0 +1,58 @@
+version: '2.2'
+services:
+
+  json-db: #name of the first service
+      image: yashika1410/json-db
+      container_name: json-db
+      restart: always
+      ports:
+        - "5000:5000" #specify ports forewarding
+      networks:
+        microservice_network:
+  ecommerce-server:
+      image: 'yashika1410/ecommerce-server'
+      restart: always
+      ports:
+        # both ports must match the port from external_url above
+        - "8761:8761"
+      networks:
+        microservice_network:
+
+  ecommerce-admin:
+      image: 'yashika1410/ecommerce-admin'
+      restart: always
+      ports:
+        - "8083:8083"
+      depends_on:
+        - "ecommerce-server"
+        - "json-db"
+      networks:
+        microservice_network:
+  ecommerce-product:
+      image: 'yashika1410/ecommerce-product'
+      restart: always
+      ports:
+        - "8084:8084"
+      depends_on:
+        - "ecommerce-server"
+        - "json-db"
+      networks:
+        microservice_network:
+
+  ecommerce-gate-way:
+      image: 'yashika1410/ecommerce-gate-way'
+      restart: always
+      ports:
+        # both ports must match the port from external_url above
+        - "8888:8888"
+      depends_on:
+        - "ecommerce-server"
+        - "ecommerce-admin"
+        - "ecommerce-product"
+      networks:
+        microservice_network:
+
+networks:
+  microservice_network:
+    ipam:
+      driver: default

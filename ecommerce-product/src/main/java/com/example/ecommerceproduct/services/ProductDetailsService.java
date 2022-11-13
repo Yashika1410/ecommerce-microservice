@@ -8,7 +8,7 @@ import org.springframework.http.MediaType;
 import org.springframework.web.client.RestTemplate;
 import com.example.ecommerceproduct.models.Product;
 public class ProductDetailsService{
-    private String url = "http://localhost:5000/products";
+    private String url = "http://json-db:5000/products";
 
     public Product getProduct(int id) {
         RestTemplate restTemplate = new RestTemplate();

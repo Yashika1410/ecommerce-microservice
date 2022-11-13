@@ -14,7 +14,7 @@ import com.example.ecommerceadmin.models.Product;
 
 public class ProductService {
    
-    private String url="http://localhost:5000/products";
+    private String url="http://json-db:5000/products";
 
     public String addProduct(Product product){
         RestTemplate restTemplate = new RestTemplate();
